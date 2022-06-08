@@ -4,7 +4,9 @@
   "description": "Home-work 1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/ElenaStepanchuk/goit-node-hw-01/issues"
   },
-  "homepage": "https://github.com/ElenaStepanchuk/goit-node-hw-01#readme"
+  "homepage": "https://github.com/ElenaStepanchuk/goit-node-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
 }
